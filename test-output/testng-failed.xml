@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="PracticeAutomation(failed)">
+    <classes>
+      <class name="ShivamTest">
+        <methods>
+          <include name="method"/>
+          <include name="method_01"/>
+        </methods>
+      </class> <!-- ShivamTest -->
+    </classes>
+  </test> <!-- PracticeAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
